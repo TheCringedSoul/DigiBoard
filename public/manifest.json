@@ -1,0 +1,14 @@
+{
+    "manifest_version": 3,
+    "name": "Digital Dashboard",
+    "version": "1.0",
+    "description": "A digital dashboard with multiple widgets",
+    "permissions": [
+      "storage",
+      "tabs"
+    ],
+    "chrome_url_overrides": {
+      "newtab": "index.html"
+    }
+  }
+  
