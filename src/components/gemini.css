@@ -1,0 +1,101 @@
+
+  
+  .App {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    max-width: 300px;
+  }
+  
+  .widget {
+
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    height: 560px;
+    max-width: 560px;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #ffffff;
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 50px;
+  }
+  
+  .response-area {
+    flex-grow: 1;
+    min-height: 100px;
+    max-height: 300px;
+    overflow-y: auto;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 15px;
+    color: #ffffff;
+  }
+  
+  .placeholder {
+    color: #51ff0091;
+    font-style: italic;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    resize: none;
+    font-family: inherit;
+    font-size: 14px;
+    color: black;
+  }
+  
+  button {
+    padding: 10px;
+    background-color: #00ff0886;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  button:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+  }
+  
+/* Hide scrollbar for webkit browsers */
+::-webkit-scrollbar {
+  width: 0px;
+  height: 0px;
+}
+
+/* Optional: Remove scrollbar background and thumb to ensure it's fully hidden */
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: transparent;
+  border-radius: 0px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: transparent;
+}
